@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+streamlit
+requests
+xarray
+netCDF4
+rasterio
+python-dotenv
+pytest
+jupyterlab
