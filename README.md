@@ -1,94 +1,194 @@
-# SevanEco AI
+<div align="center">
+
+# 🌊 SevanEco AI
 
 ### AI-Powered Environmental Intelligence for Lake Sevan
 
-SevanEco AI is an environmental artificial intelligence project focused on monitoring, analyzing, and predicting ecological changes in Lake Sevan, Armenia.
+**Monitoring · Analytics · Prediction**
 
-**Project period:** November 2, 2026 – January 31, 2027
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-Research-10B981?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Planned-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Development-0EA5E9?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-64748B?style=for-the-badge)
 
-**Status:** In Development
+**An AI-driven environmental research project focused on Lake Sevan, Armenia.**
 
-## Project Objectives
+</div>
 
-- Collect and integrate environmental datasets.
+---
+
+## 🌍 Overview
+
+**SevanEco AI** aims to combine environmental datasets,
+machine learning, and interactive visualization to study
+ecological changes in Lake Sevan.
+
+The project is being developed as an AI capstone project.
+
+### Our Mission
+
+> Transform environmental data into meaningful insights
+> that support scientific research and informed decisions.
+
+---
+
+## 🎯 Project Objectives
+
+- Collect and validate environmental datasets.
 - Analyze historical water-quality and climate trends.
-- Develop machine learning models for environmental forecasting.
-- Visualize environmental indicators through an interactive dashboard.
-- Support data-driven environmental research and decision-making.
+- Develop and evaluate machine learning models.
+- Investigate environmental forecasting approaches.
+- Build an interactive environmental dashboard.
+- Document model uncertainty and limitations.
 
-## Data Sources
+---
 
-Planned sources include:
+## 🧠 System Architecture
 
-- Armenian environmental and hydrological open data
-- Historical weather and climate datasets
-- Satellite-based environmental observations
-
-Dataset availability, quality, and licensing will be documented before integration.
-
-## Technology Stack
-
-- Python
-- Pandas, NumPy, SciPy
-- Scikit-learn
-- Xarray, Rasterio
-- Streamlit, Plotly
-- GitHub
-
-Additional tools and models will be selected during development.
-
-## Repository Structure
-
-```text
-data/          Environmental datasets
-notebooks/     Research and experiments
-src/           Data processing and ML modules
-dashboard/     Interactive application
-docs/          Research and documentation
-tests/         Automated testing
-config.py      Project configuration
-requirements.txt  Python dependencies
+```mermaid
+flowchart TD
+    A[Environmental Data Sources] --> B[Data Collection]
+    B --> C[Cleaning and Validation]
+    C --> D[Exploratory Analysis]
+    D --> E[Machine Learning Models]
+    E --> F[Model Evaluation]
+    F --> G[Streamlit Dashboard]
 ```
 
-## Getting Started
+*Proposed architecture — implementation in progress.*
 
-Clone the repository:
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Language | Python |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Scientific Analysis | SciPy, Xarray |
+| Geospatial Data | Rasterio |
+| Visualization | Matplotlib, Plotly |
+| Dashboard | Streamlit |
+| Testing | Pytest |
+| Version Control | Git & GitHub |
+
+*The technology stack may evolve during development.*
+
+---
+
+## 📂 Repository Structure
+
+```text
+SevanEco-AI/
+├── dashboard/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── docs/
+├── notebooks/
+├── src/
+│   ├── preprocessing/
+│   ├── models/
+│   ├── training/
+│   └── evaluation/
+├── tests/
+├── config.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📊 Development Roadmap
+
+| Phase | Timeline | Focus |
+|---|---|---|
+| Phase 0 | Nov 2–15, 2026 | Planning |
+| Phase 1 | Nov 15–30, 2026 | Research & Setup |
+| Phase 2 | Dec 1–20, 2026 | Data & Baseline MVP |
+| Phase 3 | Dec 21 – Jan 15 | AI Development |
+| Phase 4 | Jan 16–31, 2027 | Testing & Delivery |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Tig-Khach/SevanEco-AI.git
 cd SevanEco-AI
 ```
 
-Create a virtual environment and install dependencies:
+### 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
+```
+
+Activate it:
+
+**Windows**
+```bash
+.venv\Scripts\activate
+```
+
+**macOS / Linux**
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Activate the virtual environment before installing dependencies. Application launch instructions will be added when the dashboard is implemented.
+Application launch instructions will be added once
+the dashboard is implemented.
 
-## Development Roadmap
+---
 
-| Phase | Period |
+## 👥 Project Team
+
+| Team Member | Responsibility |
 |---|---|
-| Project Planning | Nov 2–15, 2026 |
-| Research & Setup | Nov 15–30, 2026 |
-| Data Engineering & Baseline MVP | Dec 1–20, 2026 |
-| AI Development & Integration | Dec 21, 2026 – Jan 15, 2027 |
-| Testing & Final Delivery | Jan 16–31, 2027 |
+| Tigran Khachatryan | AI Project Lead & Technical Coordinator |
+| Hayk Matevosyan | Machine Learning Research Engineer |
+| Vahe Zakaryan | Data Engineer & Interface Developer |
+| Anahit Yeghiazaryan | Scientific Researcher & QA Lead |
 
-## Project Team
+---
 
-- Tigran Khachatryan — AI Project Lead & Technical Coordinator
-- Hayk Matevosyan — Machine Learning Research Engineer
-- Vahe Zakaryan — Data Engineer & Interface Developer
-- Anahit Yeghiazaryan — Scientific Researcher & QA Lead
+## 🔬 Research Principles
 
-## Responsible AI
+- Transparent data provenance
+- Reproducible experiments
+- Quantitative model evaluation
+- Responsible AI practices
+- Clear documentation of limitations
 
-The project will document data provenance, model limitations, evaluation results, and uncertainty. Predictions are intended to support research rather than replace official environmental assessments.
+Predictions are intended for research support and should
+not replace official environmental assessments.
 
-## License
+---
 
-MIT License. See [LICENSE](LICENSE).
+## 📄 License
+
+This project is licensed under the MIT License.
+See [LICENSE](LICENSE).
+
+---
+
+<div align="center">
+
+### 🌊 SevanEco AI
+
+**Data for Nature. Intelligence for the Future.**
+
+Made with dedication to Lake Sevan, Armenia.
+
+</div>
