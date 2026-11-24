@@ -1,3 +1,14 @@
+
+<div align="center">
+
+![SevanEco AI Banner](image.png)
+
+### AI-Powered Environmental Intelligence for Lake Sevan
+
+**Data for Nature. Intelligence for the Future.**
+
+</div>
+
 <div align="center">
 
 # 🌊 SevanEco AI
